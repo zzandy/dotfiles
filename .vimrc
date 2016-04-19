@@ -4,6 +4,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
+Plug 'powerline/fonts'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'kovisoft/slimv'
@@ -27,4 +28,4 @@ endif
 let g:airline_symbols.space = "\ua0"
 
 colorscheme slate
-AirlineTheme dark
+au VimEnter * AirlineTheme dark
