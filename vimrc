@@ -1,6 +1,3 @@
-
-
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
@@ -16,6 +13,13 @@ Plug 'tpope/vim-surround'
 Plug 'jceb/vim-orgmode'
 
 call plug#end()
+
+set rnu
+set hls
+
+" Clear highlighting on escape in normal mode
+nnoremap <esc> :noh<return><esc>
+nnoremap <esc>^[ <esc>^[
 
 set laststatus=2
 let g:lisp_rainbow=1
