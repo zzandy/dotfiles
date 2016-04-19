@@ -18,8 +18,7 @@ set rnu
 set hls
 
 " Clear highlighting on escape in normal mode
-nnoremap <esc> :noh<return><esc>
-nnoremap <esc>^[ <esc>^[
+nnoremap <silent> <esc> :noh<cr><esc>
 
 set laststatus=2
 let g:lisp_rainbow=1
