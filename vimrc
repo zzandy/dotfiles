@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'sjl/badwolf'
 Plug 'scrooloose/nerdtree'
 Plug 'powerline/fonts'
 Plug 'vim-airline/vim-airline'
@@ -33,5 +34,5 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 
-colorscheme slate
+colorscheme badwolf
 au VimEnter * AirlineTheme dark
