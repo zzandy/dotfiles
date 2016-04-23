@@ -17,6 +17,7 @@ call plug#end()
 
 set rnu
 set hls
+set cursorline
 let mapleader=","
 set listchars=tab:>\ ,space:·,trail:•,extends:>,precedes:<
 set list
