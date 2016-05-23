@@ -23,6 +23,10 @@ let mapleader=","
 set listchars=tab:>\ ,space:·,trail:•,extends:>,precedes:<
 set list
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " Clear highlighting on escape in normal mode
 nnoremap <silent> <esc> :noh<cr><esc>
 
