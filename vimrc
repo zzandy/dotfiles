@@ -11,6 +11,7 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-tbone'
 Plug 'tpope/vim-surround'
 Plug 'jceb/vim-orgmode'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
