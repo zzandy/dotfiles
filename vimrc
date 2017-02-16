@@ -29,6 +29,7 @@ set expandtab
 
 " Clear highlighting on escape in normal mode
 nnoremap <silent> <esc> :noh<cr><esc>
+nnoremap <esc>^[ <esc>^[
 
 set laststatus=2
 let g:lisp_rainbow=1
