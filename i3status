@@ -24,8 +24,8 @@ wireless _first_ {
 }
 
 volume master {
-    format = "ð %volume"
-    format_muted = "ð"
+    format = "🔈 %volume"
+    format_muted = "🔇"
 }
 
 ethernet _first_ {
@@ -39,7 +39,7 @@ battery all {
         format_down = "No battery"
         status_chr = "⚡ CHR"
         status_bat = "🔋 BAT"
-        status_unk = "? UNK"
+        status_unk = "🔌 PGD"
         status_full = "☻ FULL"
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
