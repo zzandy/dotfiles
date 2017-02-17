@@ -8,6 +8,6 @@ ln -s "$SCRIPTPATH/vimrc" ~/.vimrc
 ln -s "$SCRIPTPATH/bash_aliases" ~/.bash_aliases
 ln -s "$SCRIPTPATH/gitconfig" ~/.gitconfig
 
-mkdir ~/.config{,i3,i3status}
+mkdir ~/.config/{,i3,i3status}
 ln -s "$SCRIPTPATH/i3" ~/.config/i3/config
 ln -s "$SCRIPTPATH/i3status" ~/.config/i3status/config
