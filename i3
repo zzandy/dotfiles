@@ -128,7 +128,10 @@ bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 
 bindsym $mod+button4 --whole-window exec amixer set Master 5+
-bindsym $mod+button5 --whole-window exec amixer set Master 5-
+bindsym $mod+button4 --whole-window exec amixer set Master 5+
+
+bindsym $mod+comma --whole-window exec amixer set Master 5-
+bindsym $mod+period --whole-window exec amixer set Master 5+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
