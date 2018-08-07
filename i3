@@ -29,6 +29,8 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+exec --no-startup-id feh --bg-scale ~/wallpaper.jpg
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -128,8 +130,7 @@ bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 
 bindsym $mod+button4 --whole-window exec amixer set Master 5+
-bindsym $mod+button4 --whole-window exec amixer set Master 5+
-
+bindsym $mod+button5 --whole-window exec amixer set Master 5-
 bindsym $mod+comma --whole-window exec amixer set Master 5-
 bindsym $mod+period --whole-window exec amixer set Master 5+
 

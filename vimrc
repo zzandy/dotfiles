@@ -13,6 +13,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-speeddating'
 Plug 'jceb/vim-orgmode'
 Plug 'rust-lang/rust.vim'
+Plug 'edkolev/promptline.vim'
+# :PromptlineSnapshot ~/.promptine.sh airline
 
 call plug#end()
 
